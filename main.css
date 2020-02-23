@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:800|Source+Serif+Pro&display=swap');
+
+body {
+	background: url("background.png") no-repeat center/cover;
+}
+
+@media only screen and (min-width: 800px) {
+	body {
+		width: 800px;
+		margin: 0 auto;
+	}
+}
+
+header, footer {
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+}
+
+p, ul, ol, li {
+	font-family: 'Source Serif Pro', serif;
+}
+
